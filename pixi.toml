@@ -1,11 +1,12 @@
 [workspace]
 authors = ["atleer <atle.rimehaug@gmail.com>"]
 channels = ["conda-forge"]
-name = "wshop_dl_pytorch"
+name = "Intro-to-Deep-Learning-with-PyTorch"
 platforms = ["win-64", "linux-64", "osx-64", "osx-arm64"]
 version = "0.1.0"
 
 [tasks]
+install-kernel = "python -m ipykernel install --name wshop_dl_pytorch"
 
 [dependencies]
 python = "3.12.*"
